@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6259AC;
+    margin: 1rem;
+}
+
+header{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > h1{
+    margin: 1rem;
+}
+
+header > p{
+    font-size: 1.2rem;
+    
+}
+
+.button{
+    text-decoration: none;
+}
+
+/* header > a{
+    padding: 1rem 1.5rem;
+    border: 1px solid white;
+    background-color: #6259AC;
+    margin-top: 5rem;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+} */
+
+.button{
+     margin-top: 3rem;
+     padding: 1rem 1.5rem;
+    border: 1px solid white;
+    background-color: #6259AC;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+}
+
+
+.foodImage{
+    width: 300px;
+    height: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div{
+    margin: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div > img{
+    margin-bottom: 1rem;
+}
+
+
+div > article > h1{
+    margin-bottom: 1rem;
+    color: white;
+}
+
+div > article > p{
+    margin: 2px 15px;
+    color :#A096D1;
+    align-items: center;
+    font-weight: 10; 
+}
+
+.price{
+    margin-bottom: ;
+}
+
+@media screen and (min--width(){
+    
+}
+
+
+
+
